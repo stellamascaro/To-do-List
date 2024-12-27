@@ -1,0 +1,151 @@
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  background: linear-gradient(120deg, #3482db, #9cccea);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  padding: 1rem;
+  font-family: "Rammetto One", cursive;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+#task-input input {
+  flex: 1;
+  padding: 0.7rem;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  min-width: 250px;
+}
+
+#add-task-btn {
+  background-color: #1668c5;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease;
+}
+
+#add-task-btn:hover {
+  background-color: #104d92;
+}
+
+#suggest-task-btn {
+  background-color: #1668c5;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Raleway', Arial, sans-serif;
+  height: 2.5rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+#suggest-task-btn:hover {
+  background-color: #104d92;
+}
+
+#task-list h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Raleway', Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+#tasks {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+#tasks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background: #fafafa;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 3rem;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.complete-checkbox {
+  margin-right: 10px;
+  width: 1.2rem;
+  height: 1.2rem;
+  appearance: none;
+  background-color: #fff;
+  border: 2px solid #87ceFA;
+  border-radius: 50%;
+  outline: none;
+}
+
+.complete-checkbox:checked {
+  background-color: #87CEFA;
+  border: 2px solid #87CEFA;
+}
+
+.remove-btn {
+  background-color: transparent;
+  color: gray;
+  border: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.remove-btn:hover {
+  color: red;
+}
