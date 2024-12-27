@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@900&family=Rammetto+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>To-Do List</h1>
+  </header>
+  <main>
+    <section id="task-input">
+      <div class="input-group">
+        <input type="text" id="new-task" placeholder="Adicione uma nova tarefa...">
+        <button id="add-task-btn">+</button>
+      </div>
+      <button id="suggest-task-btn">Sugestão de Tarefa</button>
+    </section>
+    <section id="task-list">
+      <h2>Minhas Tarefas</h2>
+      <ul id="tasks"></ul>
+    </section>
+  </main>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
