@@ -28,6 +28,7 @@ Este é um projeto de lista de tarefas simples, desenvolvido com HTML, CSS e Jav
    npm install
 
 2. Execute os testes:
+   ```sh
    npm test
 
-3. rode o comando ' http-server src ' no seu terminal para ver a aplicação no localhost.
+4. rode o comando `http-server src` no seu terminal para ver a aplicação no localhost.
