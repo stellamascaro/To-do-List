@@ -32,3 +32,7 @@ Este é um projeto de lista de tarefas simples, desenvolvido com HTML, CSS e Jav
    npm test
 
 4. rode o comando `http-server src` no seu terminal para ver a aplicação no localhost.
+
+
+## Documento com resolução das Perguntas Teóricas
+- `PERGUNTAS TEÓRICAS TESTE TÉCNICO - Zerum Tecnologia.pdf`
